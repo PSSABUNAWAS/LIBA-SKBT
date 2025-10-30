@@ -1,0 +1,8 @@
+{
+  "name": "LIBA V2.2",
+  "short_name": "LIBA",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#004c97"
+}
