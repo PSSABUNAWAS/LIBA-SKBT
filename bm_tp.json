@@ -1,0 +1,38 @@
+[
+  {
+    "tp": "TP1",
+    "min": 0,
+    "max": 19,
+    "desc": "Boleh membaca dengan bantuan dan sebutan masih banyak kesalahan."
+  },
+  {
+    "tp": "TP2",
+    "min": 20,
+    "max": 39,
+    "desc": "Boleh membaca ayat mudah dengan beberapa kesalahan sebutan."
+  },
+  {
+    "tp": "TP3",
+    "min": 40,
+    "max": 59,
+    "desc": "Membaca dan memahami maklumat asas dengan sebutan yang memuaskan."
+  },
+  {
+    "tp": "TP4",
+    "min": 60,
+    "max": 79,
+    "desc": "Membaca, memahami dan menaakul maklumat dengan baik daripada bahan bukan sastera dan sastera mudah."
+  },
+  {
+    "tp": "TP5",
+    "min": 80,
+    "max": 94,
+    "desc": "Membaca dengan lancar, kefahaman tinggi dan intonasi betul."
+  },
+  {
+    "tp": "TP6",
+    "min": 95,
+    "max": 100,
+    "desc": "Membaca secara cemerlang dengan kefahaman mendalam dan intonasi baku."
+  }
+]

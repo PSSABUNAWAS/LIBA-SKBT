@@ -1,0 +1,38 @@
+[
+  {
+    "tp": "TP1",
+    "min": 0,
+    "max": 19,
+    "desc": "Can read words with much teacher support; frequent hesitation."
+  },
+  {
+    "tp": "TP2",
+    "min": 20,
+    "max": 39,
+    "desc": "Can read simple phrases with some mistakes."
+  },
+  {
+    "tp": "TP3",
+    "min": 40,
+    "max": 59,
+    "desc": "Can read short texts and show basic understanding."
+  },
+  {
+    "tp": "TP4",
+    "min": 60,
+    "max": 79,
+    "desc": "Can read and understand main ideas from simple texts accurately."
+  },
+  {
+    "tp": "TP5",
+    "min": 80,
+    "max": 94,
+    "desc": "Can read fluently with good pronunciation and comprehension."
+  },
+  {
+    "tp": "TP6",
+    "min": 95,
+    "max": 100,
+    "desc": "Can read excellently with very good comprehension and expression."
+  }
+]

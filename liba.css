@@ -1,0 +1,41 @@
+*{box-sizing:border-box;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;}
+body{margin:0;background:#f4f6fb;color:#1a1a1a;min-height:100vh;display:flex;flex-direction:column;}
+.liba-header{background:#004aad;color:#fff;padding:0.5rem 1rem;box-shadow:0 2px 4px rgba(0,0,0,.2);}
+.logo-row{display:flex;gap:.5rem;align-items:center;}
+.logo-head{height:46px;object-fit:contain;background:#fff;border-radius:.5rem;padding:.25rem;}
+.marquee{overflow:hidden;white-space:nowrap;}
+.marquee p{display:inline-block;padding-left:100%;animation:marquee 15s linear infinite;font-weight:600;}
+@keyframes marquee{0%{transform:translateX(0);}100%{transform:translateX(-100%);}}
+#app{flex:1;max-width:1200px;width:100%;margin:1rem auto;display:block;padding:0 1rem 4rem;}
+.screen{display:none;}
+.active-screen{display:block;}
+.title{text-align:center;margin-top:1.5rem;}
+.lang-buttons{display:flex;gap:1rem;justify-content:center;margin:1.5rem 0;}
+.btn{border:none;border-radius:.5rem;padding:.55rem 1rem;font-size:.9rem;cursor:pointer;transition:.2s all;display:inline-flex;align-items:center;gap:.35rem;}
+.btn:hover{transform:translateY(-1px);}
+.primary{background:#004aad;color:#fff;}
+.secondary{background:#fff;border:1px solid #004aad;color:#004aad;}
+.success{background:#008f4c;color:#fff;}
+.warn{background:#ffb703;color:#000;}
+.danger{background:#d0003a;color:#fff;}
+.card{background:#fff;border-radius:.85rem;padding:1rem;margin-bottom:1rem;box-shadow:0 2px 6px rgba(0,0,0,.05);}
+.top-grid{display:grid;grid-template-columns:1.1fr 1fr 1fr;gap:1rem;}
+.middle-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:1rem;}
+textarea{width:100%;min-height:120px;border:1px solid #ddd;border-radius:.5rem;padding:.5rem;}
+video{width:100%;background:#000;border-radius:.5rem;min-height:140px;}
+.quiz-grid{margin-top:1rem;}
+#quizContainer .soalan{margin-bottom:.8rem;border-bottom:1px dashed #ddd;padding-bottom:.5rem;}
+.rekod-grid table{width:100%;border-collapse:collapse;}
+.rekod-grid th,.rekod-grid td{border:1px solid #eee;padding:.35rem .4rem;font-size:.7rem;text-align:left;}
+.rekod-grid thead{background:#f3f5ff;}
+.mt-1{margin-top:.6rem;}
+.btn-row{display:flex;gap:.5rem;flex-wrap:wrap;}
+.analysis p{margin:.2rem 0;}
+.liba-footer{background:#0a1133;color:#fff;text-align:center;padding:.55rem .5rem;font-size:.7rem;position:fixed;bottom:0;left:0;right:0;}
+
+@media (max-width:1024px){
+  #app{max-width:100%;}
+  .top-grid,.middle-grid{grid-template-columns:1fr;}
+  .logo-head{height:40px;}
+  .rekod-grid table{display:block;overflow-x:auto;}
+}
